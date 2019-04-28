@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8090:80"
+    volumes:
+      - "./frontend:/var/www/app"
+  elastic:
+    build:
+      context: elasticsearch
+      dockerfile: Dockerfile
+    ports:
+      - "9222:9200"

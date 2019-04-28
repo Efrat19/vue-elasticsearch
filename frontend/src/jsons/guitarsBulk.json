@@ -1,0 +1,23 @@
+[
+    {
+        "brand":"fender",
+        "model":"stratocaster",
+        "color":"black",
+        "finish":"sunburst",
+        "scale":"25.5\""
+    },
+    {
+        "brand":"solar",
+        "model":"A2.6",
+        "color":"red",
+        "finish":"dark sunburst",
+        "scale":"24\""
+    },
+    {
+        "brand":"gibson les paul",
+        "model":"björn gelotte",
+        "color":"yellow",
+        "finish":"neon yellow",
+        "scale":"25\""
+    }
+]
