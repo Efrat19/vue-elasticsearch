@@ -8,6 +8,8 @@ services:
       - "8090:80"
     volumes:
       - "./frontend:/var/www/app"
+    depends_on:
+      - elastic
   elastic:
     build:
       context: elasticsearch
