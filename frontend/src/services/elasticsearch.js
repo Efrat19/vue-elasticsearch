@@ -3,23 +3,11 @@ import elasticsearch from 'elasticsearch';
 class ElasticSearch {
     constructor(){
         this.client = new elasticsearch.Client({
-            host: 'localhost:9222',
+            host: 'localhost:9292',
           });
-    }
-    startElastic(){
-
-    }
-    createGuitarIndex(){
-
     }
     postBulk(bulk){
         this.client.bulk({body:bulk});
-    }
-    putDoc(){
-
-    }
-    deleteDoc(){
-
     }
     async search(query){
         const body = {

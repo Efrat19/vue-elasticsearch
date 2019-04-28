@@ -13,4 +13,4 @@ services:
       context: elasticsearch
       dockerfile: Dockerfile
     ports:
-      - "9222:9200"
+      - "9292:9200"

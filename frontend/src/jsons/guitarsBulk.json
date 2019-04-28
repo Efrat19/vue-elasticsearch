@@ -7,6 +7,13 @@
         "scale":"25.5\""
     },
     {
+        "brand":"gibson les paul",
+        "model":"edgxdgr",
+        "color":"black",
+        "finish":"light sunburst",
+        "scale":"24\""
+    },
+    {
         "brand":"solar",
         "model":"A2.6",
         "color":"red",
@@ -15,7 +22,7 @@
     },
     {
         "brand":"gibson les paul",
-        "model":"björn gelotte",
+        "model":"bjorn gelotte",
         "color":"yellow",
         "finish":"neon yellow",
         "scale":"25\""
