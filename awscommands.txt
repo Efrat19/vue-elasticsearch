@@ -1,0 +1,50 @@
+   20  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   21  sudo chmod +x /usr/local/bin/docker-compose
+   22  docker-compose -v
+   23  docker -v
+   24  yum install git
+   25  sudo yum install git
+   26  cd ~
+   27  ll
+   28  git clone https://github.com/Efrat19/vue-elasticsearch.git
+   29  cd vue-elasticsearch/
+   30  ll
+   31  vim docker-compose.yml 
+   32  docker-compose up
+   33  sudo reboot
+   34  ll
+   35  cd vue-elasticsearch/
+   36  docker-compose up
+   37  dockerd
+   38  sudo dockerd
+   39  sudo dockerd status
+   40  service dockerd status
+   41  sudo docker-compose up
+   42  docker-compose up
+   43  sudo service docker start
+   44  docker-compose up
+   45  sudo docker -H 0.0.0.0:2375 -d
+   46  docker -H 0.0.0.0:2375 -d
+   47  export DOCKER_HOST=127.0.0.1:2375
+   48  docker-compose up
+   49  service docker restsart
+   50  docker restart
+   51  dockerd restart
+   52  sudo yum remove docker docker-engine
+   53  docker
+   54  curl -sSL https://get.docker.com/ | sh
+   55  sudo amazon-linux-extras install docker
+   56  sudo service docker start
+   57  sudo service docker status
+   58  docker-compose up
+   59  export DOCKER_HOST=
+   60  docker-compose up
+   61  sudo usermod -a -G docker ec2-user
+   62  docker-compose up
+   63  logout
+   64  cd vue-elasticsearch/
+   65  docker-compose up
+   66  free -g
+   67  free -m
+   68  touch awscommands.txt
+   69  history 50 > awscommands.txt 
